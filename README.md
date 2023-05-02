@@ -16,7 +16,8 @@ yarn workspaces foreach -p run serve
 
 ## demo查看方式
 
-使用浏览器打开并浏览http://localhost:3000/，注意如果module-map-override的cdn地址失效，可以手动将application项目下的module-map-override.js文件复制到dist文件夹下
+使用浏览器打开并浏览 (http://localhost:3000/)，
+注意如果module-map-override的cdn地址失效，可以手动将application项目下的module-map-override.js文件复制到dist文件夹下
 
 ## 基本解释
 
