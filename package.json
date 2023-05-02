@@ -1,0 +1,8 @@
+{
+  "name": "plugin_v2",
+  "packageManager": "yarn@3.2.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true
+}
