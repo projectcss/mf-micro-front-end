@@ -16,8 +16,7 @@ yarn workspaces foreach -p run serve
 
 ## demo查看方式
 
-使用浏览器打开并浏览 (http://localhost:3000/)，
-注意如果module-map-override的cdn地址失效，可以手动将application项目下的module-map-override.js文件复制到dist文件夹下
+使用浏览器打开并浏览http://localhost:3000/
 
 ## 基本解释
 
@@ -27,5 +26,5 @@ package/application 文件夹下为最终的产品， html中包含插件配置�
 
 - 所有的插件均需要使用webpack构建
 - 所有的由第一方提供的能力， 均无需使用webpack构建， 使用任意compiler编译即可
-- 提供本地开发工具，对标 single-spa的imports-map-overrides
+- 提供本地开发工具，对标 single-spa 的 imports-map-overrides
 
